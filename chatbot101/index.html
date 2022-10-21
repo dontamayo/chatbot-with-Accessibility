@@ -2,11 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatbot</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     
+
+
+    <div class="container">
+
+        <h1 class="text-center" alt="Chatbot Accessibility" tabindex="0">Chatbot Accessibility</h1>
+
+        <div class="media" style="background-color:whitesmoke">
+            <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle float-left img-thumbnail" width="75px" alt="image of Galvan">
+            <div class="media-body">
+              <h5 style="margin:10px" alt="Galvan">Galvan</h5>
+                <span style="margin-left: 10px; color:rgb(32, 199, 32)" alt="Online">Online</span>
+            </div>
+          </div>
+
+
+          <!--Messages container-->
+          <div id="chatContainer" class="container border overflow-auto" style="height:500px">
+
+            <!-- Chatbot message design
+            <div class="w-50 float-left shadow-sm" style="margin: 10px; padding: 5px;">
+                <span>Chat: </span>
+                <span style="margin-top:10px; padding:10px"> How are you?</span>
+            </div>
+
+           
+            
+            user message design
+            <div class="w-50 float-right shadow-sm" style="margin: 10px; padding: 5px;">
+                <span>You: </span>
+                <span style="margin-top:10px; padding:10px"> Great</span>
+            </div> -->
+
+
+
+          </div>
+
+          <div class="input-group">
+              <input id="textbox" type="text" class="form-control"  tabindex="0" placeholder="How can we help you?"/>
+
+              <div class="input-group-append">
+
+                        <button id="sendBtn" type="btton" class="btn btn-primary" tabindex="0" alt="Send">Send</button>
+              </div>
+
+
+
+          </div>
+
+          
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
 </body>
 </html>
