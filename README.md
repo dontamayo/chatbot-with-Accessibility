@@ -8,5 +8,5 @@ for accessibility assesment
 4. start typing
 5. have fun
 
-![My Image](../images/1.png)
-![My Image](../images/2.png)
+![My Image](/chatbot101/images/1.png)
+![My Image](/chatbot101/images/2.png)
