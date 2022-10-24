@@ -16,7 +16,7 @@
 
     <div class="container">
 
-        <h1 class="text-center" alt="Chatbot Accessibility" tabindex="0">Chatbot Accessibility</h1>
+        <h1 class="text-center" alt="Chatbot Accessibility" tabindex="-1">Chatbot Accessibility</h1>
 
         <div class="media" style="background-color:whitesmoke">
             <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle float-left img-thumbnail" width="75px" alt="image of Galvan">
@@ -49,11 +49,11 @@
           </div>
 
           <div class="input-group">
-              <input id="textbox" type="text" class="form-control"  tabindex="0" placeholder="How can we help you?"/>
+              <input id="textbox" type="text" class="form-control"   aria-describedby="How can we help you?" tabindex="0" placeholder="How can we help you?"/>
 
               <div class="input-group-append">
 
-                        <button id="sendBtn" type="btton" class="btn btn-primary" tabindex="0" alt="Send"><span class="material-icons md-18">send</span></button>
+                        <button id="sendBtn" type="button" class="btn btn-primary" tabindex="0" alt="Send"><span class="material-icons md-18">send</span></button>
               </div>
 
 
